@@ -10,7 +10,6 @@ xx, yy = np.meshgrid(x, y)
 xx = xx.ravel()
 yy = yy.ravel()
 value = np.sin(xx / 50) * np.cos(yy / 50) * 50 + 50
-
 source = ColumnDataSource(data=dict(x=xx, y=yy, z=value))
 
 surface = Surface3d(x="x", y="y", z="z", data_source=source, width=600, height=600)
