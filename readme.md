@@ -1,5 +1,5 @@
 # A Bokeh prebuilt extension example
-This repository contains a simple [Bokeh prebuilt extension](https://docs.bokeh.org/en/latest/docs/user_guide/extensions.html#pre-built-extensions). This example was produced using Bokeh version 2.3.3.
+This repository contains a simple [Bokeh prebuilt extension](https://docs.bokeh.org/en/latest/docs/user_guide/extensions.html#pre-built-extensions).
 
 It is mostly just the "[Wrapping a JavaScript library](https://docs.bokeh.org/en/latest/docs/user_guide/extensions_gallery/wrapping.html#userguide-extensions-examples-wrapping)" example reworked to be used as a prebuilt extension as opposed to an inline extension used in the tutorial. The only changes are those necessary to convert it to a prebuilt extension.
 
